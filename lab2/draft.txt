@@ -1,0 +1,6 @@
+new_sent=[]
+       
+        for pair in itertools.combinations(self.conjuncts,2):
+            if len((set(pair[0].disjuncts))-set(pair[1].disjuncts))==0:
+
+                print("crerc")
